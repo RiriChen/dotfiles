@@ -58,5 +58,3 @@ nmap ,cr :!cscope -Rb<enter> :cs reset<enter>
 " Fix man
 autocmd FileType man setlocal buftype=nofile bufhidden=wipe nomodifiable readonly noswapfile nobackup nowritebackup
 autocmd FileType man nnoremap <buffer> q :bd!<CR>
-
-" real time vim diffing: install Signify plugin
