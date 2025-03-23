@@ -1,6 +1,3 @@
-## WSL ##
-exec cd
-
 ## ZShell ##
 exec zsh
 

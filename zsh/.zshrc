@@ -18,7 +18,7 @@ alias tmux-split="tmux split-window -c $PWD"
 export PATH="$PATH:/home/rchen/bin"
 
 ## man pages vim themed ##
-export MANPAGER="sh -c 'col -bx | vim -n -c \"set ft=man nomodifiable readonly noswapfile\" -'"
+export MANPAGER="less -R"
 
 ## ls command output ##
 alias lsa='ls -AlB --color'

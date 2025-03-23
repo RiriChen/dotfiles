@@ -22,10 +22,12 @@ call pathogen#helptags()
 filetype plugin indent on
 set laststatus=2                " makes airline appear even with no split
 let g:airline_theme='jellybeans'
+let g:signify_enable = 1
+let g:signify_realtime = 1
 
 " Syntax highlighting
 set t_Co=256                    " Set terminal to 256 colors
-set cursorline                " Highlight the current line
+set cursorline                  " Highlight the current line
 colorscheme jellybeans
 let g:jellybeans_background_color_256=232
 let g:jellybeans_background_color='020202'
